@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Header from './Components/Header'
+import { ContextProvider } from './Context/ContextAuth'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ContextProvider>
+         <div className='m-2 mx-5'>
+            <Header />
+         </div>
+          {children}
+        </ContextProvider>
+        </body>
     </html>
   )
 }
