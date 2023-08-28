@@ -10,12 +10,11 @@ import { useAuth } from '../Context/ContextAuth';
 import { db } from '../firebaseConfig';
 import { setDoc, doc } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
-
 const Header = () => {
   const [inputs, setInputs] = useState({});
   const { user, googleSignIn, LogOut } = useAuth();
   const router = useRouter();
-
+  
   useEffect(() => {
     SaveUserInfo();
   }, [user]);

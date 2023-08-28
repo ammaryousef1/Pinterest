@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
-import { useAuth } from '../Context/ContextAuth'
+
 import Image from 'next/image'
 const UserTag = ({user}) => {
-    
 
+  
   return (
     <div className='m-2'>
         {user?

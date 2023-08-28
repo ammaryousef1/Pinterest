@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore'
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAwQ8PUB3y2G1gl_arv7-UheTgrMHA0XEg",
-  authDomain: "multimart-ad78a.firebaseapp.com",
-  projectId: "multimart-ad78a",
-  storageBucket: "multimart-ad78a.appspot.com",
-  messagingSenderId: "40334505648",
-  appId: "1:40334505648:web:0145419a7dfc05c9686d75",
-  measurementId: "G-PLX1CP1YRJ"
+  apiKey: "AIzaSyD7xMh5oWLZ1ZdRxvyN8ySmXNp-yraLbUo",
+  authDomain: "pinterest-19816.firebaseapp.com",
+  projectId: "pinterest-19816",
+  storageBucket: "pinterest-19816.appspot.com",
+  messagingSenderId: "746022536382",
+  appId: "1:746022536382:web:f040051b9e433428894aef",
+  measurementId: "G-6N6CX07KJS"
 };
 
 

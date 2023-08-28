@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/[userId]/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/[userId]/page.jsx", "app/layout.jsx", "app/page.jsx", "app/firebaseConfig.jsx", "app/Components/UploadImage.jsx", "app/Components/Form.jsx", "app/Components/Header.jsx", "app/Components/UserProfile.jsx", "app/Components/UserTag.jsx", "app/Context/ContextAuth.jsx", "app/pin-builder/page.jsx", "app/pin-builder/page.jsx", "app/Components/Pin/PinList.jsx", "app/Components/Pin/PinItem.jsx", "tailwind.config.js"],
   "exclude": ["node_modules"]
 }
